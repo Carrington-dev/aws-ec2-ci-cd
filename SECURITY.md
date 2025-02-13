@@ -9,6 +9,8 @@ We actively support the latest major and minor releases of this Django applicati
 | 1.x.x   | ❌ Not Supported |
 | 2.x.x   | ✅ Supported     |
 | 3.x.x   | ✅ Supported     |
+| 4.x.x   | ✅ Supported     |
+| 5.x.x   | ✅ Supported     |
 
 If you are using an older version, we strongly recommend upgrading to a supported release.
 
@@ -16,7 +18,7 @@ If you are using an older version, we strongly recommend upgrading to a supporte
 
 If you discover a security vulnerability in this application, please **do not disclose it publicly**. Instead, follow these steps:
 
-1. **Email the security team** at [security@example.com](mailto\:security@example.com) with details of the vulnerability.
+1. **Email the security team** at [security@stemgon.com](mailto\:security@stemgon.com) with details of the vulnerability.
 2. **Provide steps to reproduce** the issue, including any necessary code snippets or configurations.
 3. **Wait for our response**—we will acknowledge receipt of the report within 48 hours.
 4. **Allow time for a fix**—we aim to address critical vulnerabilities within 7-14 days.
