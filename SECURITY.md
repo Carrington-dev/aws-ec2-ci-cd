@@ -107,3 +107,24 @@ For any security concerns, please reach out to our security team at:
 
 Thank you for helping us keep this Django application secure! 🔒
 
+You can generate a new Django secret key using Python. Run the following command in a Python shell:  
+
+```python
+import secrets
+
+print(secrets.token_urlsafe(50))
+```
+
+Or, if you prefer a one-liner in the terminal:  
+
+```sh
+python -c "import secrets; print(secrets.token_urlsafe(50))"
+```
+
+This will generate a secure, random key that you can use in your Django project's `settings.py`:
+
+```python
+SECRET_KEY = "your-generated-secret-key"
+```
+
+Would you like a more automated way to manage secrets, such as environment variables or a `.env` file?

@@ -4,9 +4,9 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-SECRET_KEY = 'django-insecure-hkee*-tvlb!$5-3#psx)1s93ar32_y87!a$!%=(m)r(d1st3ht'
+SECRET_KEY = '4Q6D17wES3WbDp9Y2FyJnEH9rFAVKuNcb_iXmfNgQIneLLXuLGaNOp84sLtLk9MQ09Q'
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -21,6 +21,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'rest_framework',
+    # 'sslserver',
     'news',
 ]
 
@@ -91,3 +92,18 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# SECURE_BROWSER_XSS_FILTER = True
+# SECURE_CONTENT_TYPE_NOSNIFF = True
+# X_FRAME_OPTIONS = "DENY"
+# CSRF_COOKIE_SECURE = True
+# SESSION_COOKIE_SECURE = True
+# SECURE_SSL_REDIRECT = True
+
+# SECURE_HSTS_SECONDS = 31536000
+# SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+
+# SECURE_CONTENT_TYPE_NOSNIFF = True
+# SECURE_HSTS_PRELOAD = True
+
