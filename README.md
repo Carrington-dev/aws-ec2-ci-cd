@@ -226,3 +226,8 @@ This approach can be more integrated with AWS but may have a steeper learning cu
 Using GitHub Actions (or another CI/CD tool) in combination with a well-prepared EC2 environment allows you to automatically test and deploy updates to your Django application. The key steps are to set up your production environment (with Gunicorn and Nginx), write a deployment script that updates the code and restarts services, and then automate the process through your chosen CI/CD tool. With this setup, every push to your deployment branch can trigger a full test-and-deploy cycle, reducing manual intervention and speeding up your development workflow.
 
 If you have any further questions or need additional details for any step, feel free to ask!
+
+
+Here's a `SECURITY.md` file tailored for a Django app, covering security policies, best practices, and responsible disclosure guidelines.
+
+Your `SECURITY.md` file has been created with security policies, best practices, and a responsible disclosure policy. Let me know if you'd like any modifications or additions! 🚀🔒
