@@ -2,7 +2,7 @@ from django.db import models
 length  = 256
 
 class Post(models.Model):
-    title = models.CharField(max_length=length,)
+    title = models.CharField(max_length=length, unique=True)
     author = models.CharField(max_length=length,)
     content = models.TextField()
     date_updated = models.DateTimeField(auto_now=True)
