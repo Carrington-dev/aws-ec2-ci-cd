@@ -31,7 +31,7 @@ jobs:
       #     key: ${{ secrets.EC2_SSH_KEY }}       # Your private SSH key (add as a secret)
       #     port: 22
       #     script: |
-      #       cd /home/ubuntu/myproject
+      #       cd /home/ubuntu/aws-ec2-ci-cd
       #       git pull origin main
       #       source venv/bin/activate
       #       pip install -r requirements.txt
