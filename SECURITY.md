@@ -128,3 +128,5 @@ SECRET_KEY = "your-generated-secret-key"
 ```
 
 Would you like a more automated way to manage secrets, such as environment variables or a `.env` file?
+
+
